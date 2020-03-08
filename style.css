@@ -1,0 +1,107 @@
+/*--------------------------------------------------------------
+Tipografia
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+
+p {
+	margin-bottom: 1.5em;
+}
+
+
+/*--------------------------------------------------------------
+Layout
+--------------------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    padding: 1em 2em;
+    background-color: #0D1B2E;
+    color: white;
+}
+
+.masthead h1 {
+    text-align: center;
+}
+
+.intro {
+    padding: 2em 2em;
+    color: #ffffff;
+    background: #429890;
+}
+
+
+.intro p,
+.test-area {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.test-area {
+    margin-bottom: 4em;
+    padding: 0 2em;
+}
+
+.test-wrapper {
+    border: 10px solid grey;
+    border-radius: 10px;
+}
+
+#origin-text {
+    margin: 1em 0;
+    padding: 1em 1em 0;
+    background-color: #ededed;
+    border-radius: 5px;
+}
+
+#origin-text p {
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.test-wrapper {
+    display: flex;
+}
+
+.test-wrapper textarea {
+    flex: 1;
+}
+
+.meta {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#reset {
+    padding: .5em 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #E95D0F;
+    background: white ;
+    border: 10px solid #E95D0F;
+}
+
+#reset:hover {
+    color: white;
+    background-color: #E95D0F;
+}
