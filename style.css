@@ -43,6 +43,9 @@ body {
     background: #429890;
 }
 
+.intro p {
+    text-align: center;
+}
 
 .intro p,
 .test-area {
