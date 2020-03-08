@@ -38,12 +38,12 @@ function spellCheck() {
 
     if (textEntered == originText) {
         clearInterval(interval);  // para o cronômetro.
-        testWrapper.style.borderColor = "#429890"; // sucesso.
+        testWrapper.style.borderColor = "#66ff33"; // sucesso.
     } else {
         if (textEntered == originTextMatch) {
-            testWrapper.style.borderColor = "#65CCf3"; // teste iniciado, mesmo sem nada digitado.
+            testWrapper.style.borderColor = "#00BFFF"; // escrevendo.
         } else {
-            testWrapper.style.borderColor = "#E95D0F" // erro.
+            testWrapper.style.borderColor = "#DC0809" // erro.
         }
     }
 }
@@ -68,7 +68,7 @@ function reset() {
 
     testArea.value = "";
     theTimer.innerHTML = "00:00:00";
-    testWrapper.style.borderColor = "grey";
+    testWrapper.style.borderColor = "#8854d0";
 }
 
 

@@ -7,14 +7,14 @@ button,
 input,
 select,
 textarea {
-	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 }
 
 
 p {
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 }
 
 
@@ -25,11 +25,12 @@ Layout
 body {
     margin: 0;
     padding: 0;
+    background-color: #a55eea;
 }
 
 .masthead {
-    padding: 1em 2em;
-    background-color: #0D1B2E;
+    padding: 1em;
+    background-color: #2A2C2B;
     color: white;
 }
 
@@ -39,8 +40,8 @@ body {
 
 .intro {
     padding: 2em 2em;
-    color: #ffffff;
-    background: #429890;
+    color: white;
+    background: #a55eea;
 }
 
 .intro p {
@@ -54,19 +55,19 @@ body {
 }
 
 .test-area {
-    margin-bottom: 4em;
+    margin-bottom: 5em;
     padding: 0 2em;
 }
 
 .test-wrapper {
-    border: 10px solid grey;
-    border-radius: 10px;
+    border: 5px solid #8854d0;
+    border-radius: 5px;
 }
 
 #origin-text {
     margin: 1em 0;
     padding: 1em 1em 0;
-    background-color: #ededed;
+    background-color: white;
     border-radius: 5px;
 }
 
@@ -87,24 +88,27 @@ body {
     margin-top: 1em;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .timer {
     font-size: 3em;
     font-weight: bold;
+    color: white;
 }
 
 #reset {
-    padding: .5em 1em;
+    padding: .5em 2em;
     font-size: 1.2em;
     font-weight: bold;
-    color: #E95D0F;
-    background: white ;
-    border: 10px solid #E95D0F;
+    color: white;
+    background: transparent;
+    border: 5px solid white;
+    border-radius: 5px;
 }
 
 #reset:hover {
-    color: white;
-    background-color: #E95D0F;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #a55eea;
+    background-color: white;
 }
