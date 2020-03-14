@@ -1,6 +1,6 @@
 const testWrapper = document.querySelector(".test-wrapper");
 const testArea = document.querySelector("#test-area");
-const originText = document.querySelector("#origin-text p").innerHTML;
+const originText = document.querySelector("#origin-text p");
 const resetButton = document.querySelector("#reset");
 const theTimer = document.querySelector(".timer");
 
@@ -8,6 +8,15 @@ const theTimer = document.querySelector(".timer");
 var timer = [0, 0, 0, 0];
 var interval;
 var timerRunning = false;
+var texts = [
+    "I am the bone of my sword.",
+    "Steel is my body and fire is my blood.",
+    "I have created over a thousand blades.",
+    "Unknown to death, Nor known to life.",
+    "Have withstood pain to create many weapons.",
+    "Yet, those hands will never hold anything.",
+    "So, as I pray. Unlimited Blade Works!"
+]
 
 
 // Adiciona zero inicial aos números <= 9 (apenas para estética):
@@ -34,9 +43,9 @@ function runTimer() {
 // Verifica texto digitado com o fornecido na página:
 function spellCheck() {
     let textEntered = testArea.value;
-    let originTextMatch = originText.substring(0, textEntered.length);
+    let originTextMatch = originText.innerHTML.substring(0, textEntered.length);
 
-    if (textEntered == originText) {
+    if (textEntered == originText.innerHTML) {
         clearInterval(interval);  // para o cronômetro.
         testWrapper.style.borderColor = "#66ff33"; // sucesso.
     } else {
@@ -69,6 +78,7 @@ function reset() {
     testArea.value = "";
     theTimer.innerHTML = "00:00:00";
     testWrapper.style.borderColor = "#8854d0";
+    originText.innerHTML = texts[Math.floor(Math.random() * texts.length)];
 }
 
 
