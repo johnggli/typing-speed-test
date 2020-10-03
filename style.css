@@ -38,10 +38,34 @@ body {
     text-align: center;
 }
 
+.btn {
+    text-decoration: none;
+    text-align: center;
+    padding: .5em 1em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #a55eea;
+    background-color: white;
+}
+
 .intro {
     padding: 2em 2em;
     color: white;
     background: #a55eea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro p {

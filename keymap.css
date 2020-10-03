@@ -1,0 +1,61 @@
+#keymap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.key {
+    min-height: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #263238;
+    color: white;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+}
+
+.key.tab {
+    min-width: 65px;
+}
+
+.key.caps {
+    min-width: 80px;
+}
+
+.key.shift {
+    min-width: 100px;
+}
+
+.key.ctrl {
+    width: 90px;
+}
+
+.key.alt {
+    width: 90px;
+}
+
+.presset {
+    background: #000;
+    color: #a55eea;
+}
+
+@media only screen and (max-width: 800px) {
+    #keymap {
+        width: 100%;
+    };
+}
