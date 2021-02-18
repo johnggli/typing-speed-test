@@ -1,6 +1,7 @@
 var keys = document.querySelectorAll('.key');
 
 function setKeyPresset(event) {
+    event.preventDefault();
     var code = event.keyCode;
     console.log(code);
     for (var key of keys) {
