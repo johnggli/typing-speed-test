@@ -14,6 +14,7 @@
 <p align="center">
   <a href="#bulb-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#star2-extras">Get in touch</a>
 </p>
 
@@ -32,9 +33,18 @@ This is an open source project that serves as a typing speed test.
 
 ## :rocket: Getting started
 
-- Clone the repository
-- Make changes to images and texts in the `index.html` file.
+- Clone the repository;
+- Make changes to images and texts in the `index.html` file;
 - Change the colors and fonts in the `style.css` file.
+
+## 🤔 How to contribute
+
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m "feat: my new feature"`;
+- Push to your branch: `git push origin my-feature`.
+
+Once your pull request has been merged, you can delete your branch.
 
 ---
 
