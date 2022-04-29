@@ -2,12 +2,12 @@
 <h3 align="center">Typing speed test made with HTML, CSS and JavaScript.</h3>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JohnEmerson1406/Typing_Speed_Test?color=8257E5&labelColor=000000">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jchn146/Typing_Speed_Test?color=8257E5&labelColor=000000">
   
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JohnEmerson1406/Typing_Speed_Test?color=8257E5&labelColor=000000">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jchn146/Typing_Speed_Test?color=8257E5&labelColor=000000">
   
-  <a href="https://github.com/JohnEmerson1406/linktree/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JohnEmerson1406/Typing_Speed_Test?color=8257E5&labelColor=000000">
+  <a href="https://github.com/jchn146/linktree/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jchn146/Typing_Speed_Test?color=8257E5&labelColor=000000">
   </a>
 </p>
 
@@ -29,7 +29,7 @@
 ## :bulb: About the project
 
 This is an open source project that serves as a typing speed test.
-- [Demo](https://johnemerson1406.github.io/Typing_Speed_Test/)
+- [Demo](https://jchn146.github.io/Typing_Speed_Test)
 
 ## :rocket: Getting started
 
@@ -54,4 +54,4 @@ Once your pull request has been merged, you can delete your branch.
 
 ---
 
-Made with ♥ by [John Emerson](https://johnemerson1406.github.io/linktree) & [Pedro Henrique](https://github.com/PedroHenriqueDevBR) :wave:
+Made with ♥ by [John Emerson](https://jchn146.github.io/linktree) & [Pedro Henrique](https://github.com/PedroHenriqueDevBR) :wave:
